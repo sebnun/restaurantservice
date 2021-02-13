@@ -8,7 +8,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Equipment maintenance</label>
+    <label>REM Back Office</label>
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
     <tabs>standard-Case</tabs>
