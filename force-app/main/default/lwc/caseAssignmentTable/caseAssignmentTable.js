@@ -71,10 +71,35 @@ export default class CaseAssignmentTable extends LightningElement {
 
   @track userList;
 
+  userColumns = [
+    {
+      label: "First name",
+      fieldName: "FirstName",
+      type: "text",
+      sortable: true
+    },{
+      label: "Last name",
+      fieldName: "LastName",
+      type: "text",
+      sortable: true
+    },{
+      label: "User name",
+      fieldName: "Username",
+      type: "text",
+      sortable: true
+    },{
+      label: "User type",
+      fieldName: "UserType",
+      type: "text",
+      sortable: true
+    }
+  ];
+
   @wire(getUserList)
   wiredUsers({ error, data }) {
     if (data) {
       this.userList = data;
+
     } else if (error) {
       this.error = error;
     }
