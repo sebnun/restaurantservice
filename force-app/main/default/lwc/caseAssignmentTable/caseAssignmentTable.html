@@ -6,6 +6,7 @@
         onrowaction={handleRowAction}
         data={caseList}
         columns={caseColumns}
+        hide-checkbox-column
       >
       </lightning-datatable>
     </lightning-layout-item>
@@ -46,18 +47,11 @@
           class="slds-modal__content slds-p-around_medium"
           id="modal-content-id-1"
         >
-        <!-- <lightning-combobox
-        name="Service user"
-        label="User"
-        value={pickedUserId}
-        placeholder="Select a service user"
-        options={userList}
-        onchange={handleUserChange} ></lightning-combobox> -->
-
         <lightning-datatable
         key-field="id"
         data={userList}
         columns={userColumns}
+        onrowselection={getSelection}>
       >
       </lightning-datatable>
 

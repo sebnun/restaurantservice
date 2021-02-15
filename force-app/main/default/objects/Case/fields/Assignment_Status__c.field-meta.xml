@@ -14,7 +14,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Waiting for response</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>Waiting for response</label>
             </value>
             <value>
@@ -26,6 +26,11 @@
                 <fullName>Rejected</fullName>
                 <default>false</default>
                 <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Unassigned</fullName>
+                <default>true</default>
+                <label>Unassigned</label>
             </value>
         </valueSetDefinition>
     </valueSet>
