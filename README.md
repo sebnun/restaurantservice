@@ -71,6 +71,7 @@ This application is incomplete, there are many improvements to be made, some of 
 * Improve usability for the user, follow the Lightning Desgin System properly
 * Improve code quality
 * Add proper security to objects, profiles, etc. 
+* Some of the functionalities could have been made with no-code tools, explore those options
 * Add all missing functionality
 
   
