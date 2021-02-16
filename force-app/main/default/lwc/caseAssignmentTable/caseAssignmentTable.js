@@ -1,5 +1,5 @@
 import { LightningElement, wire, track } from "lwc";
-import getCaseList from "@salesforce/apex/CaseHelper.getCaseList";
+import getFieldManagerCaseList from "@salesforce/apex/CaseHelper.getFieldManagerCaseList";
 import getUserList from "@salesforce/apex/UserHelper.getUserList";
 import assignUser from "@salesforce/apex/UserHelper.assignUser";
 import { refreshApex } from "@salesforce/apex";
@@ -35,7 +35,7 @@ export default class CaseAssignmentTable extends LightningElement {
   @track error;
   @track caseList;
 
-  @wire(getCaseList)
+  @wire(getFieldManagerCaseList)
   wiredCases({ error, data }) {
     if (data) {
       this.caseList = data;

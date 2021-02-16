@@ -72,4 +72,8 @@
         <name>REM</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>REM_Service_persons</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

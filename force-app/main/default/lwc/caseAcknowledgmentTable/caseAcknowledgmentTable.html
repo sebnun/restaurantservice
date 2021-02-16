@@ -1,0 +1,16 @@
+<template>
+    <lightning-layout>
+      <lightning-layout-item flexibility="auto" padding="around-small">
+        <lightning-datatable
+          key-field="id"
+          onrowaction={handleRowAction}
+          data={caseList}
+          columns={caseColumns}
+          hide-checkbox-column
+        >
+        </lightning-datatable>
+      </lightning-layout-item>
+    </lightning-layout>
+
+  </template>
+  

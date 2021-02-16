@@ -6,9 +6,19 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>REM_Service_persons</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>landabcom</application>
         <default>false</default>
         <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningBolt</application>
+        <default>false</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
         <apexClass>CaseHelper</apexClass>
@@ -213,6 +223,10 @@
     </objectPermissions>
     <tabVisibilities>
         <tab>Assignments</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>My_Assignments</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
